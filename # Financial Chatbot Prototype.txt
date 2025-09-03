@@ -1,0 +1,20 @@
+# Financial Chatbot Prototype
+
+## Functionality
+This is a rule-based chatbot that answers 5 predefined financial questions:
+1. What is the total revenue?
+2. How has net income changed over the last year?
+3. What is the gross margin?
+4. What are operating expenses?
+5. What is cash on hand?
+
+If any other query is asked, the chatbot returns a fallback message.
+
+## How to Run
+- Open Jupyter Notebook and run `financial_chatbot.ipynb`
+- Or export the notebook to `financial_chatbot.py` and run with `python financial_chatbot.py`
+
+## Limitations
+- Only works with exact predefined queries.
+- No natural language processing.
+- Uses static sample CSV data, not real-time feeds.
